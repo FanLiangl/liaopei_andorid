@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_account"
+        app:left_icon="@mipmap/accountnumber" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_wallet"
+        app:left_icon="@mipmap/wallet" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_member"
+        app:left_icon="@mipmap/member" />
+
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_kefu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_kefu"
+        app:left_icon="@mipmap/kefu" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_share"
+        app:left_icon="@mipmap/share" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_rule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_rule"
+        app:left_icon="@mipmap/mine_rule" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_setting"
+        app:left_icon="@mipmap/mine_setting" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_dynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_dynamic"
+        app:left_icon="@mipmap/dynamic" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_privacy"
+        app:left_icon="@mipmap/mine_privacy" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_version"
+        app:left_icon="@mipmap/mine_version" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_prisetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_pri"
+        app:left_icon="@mipmap/pri_setting" />
+    <com.zm.liaopei.widgets.RowView
+        android:id="@+id/row_love"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        app:content_type="arrow"
+        app:left_text="@string/str_mine_love"
+        app:left_icon="@mipmap/mine_love" />
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--被选中状态-->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorPrimaryDark" />
+            <padding android:bottom="3dp" android:left="12dp" android:right="12dp" android:top="3dp" />
+            <corners android:radius="9999dp" />
+        </shape>
+    </item>
+
+    <!--正常状态-->
+    <item android:state_selected="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorBlack10" />
+            <padding android:bottom="3dp" android:left="12dp" android:right="12dp" android:top="3dp" />
+            <corners android:radius="9999dp" />
+        </shape>
+    </item>
+
+</selector>

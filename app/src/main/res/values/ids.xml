@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--userDesc描述保存被选中的tag的id-->
+    <item name="tag_view_id" type="id"/>
+</resources>

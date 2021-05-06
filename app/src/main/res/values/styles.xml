@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+    </style>
+
+    <!--主页顶部tablayout样式-->
+    <style name="TabLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="tabIndicatorFullWidth">false</item>
+        <item name="tabRippleColor">@android:color/transparent</item>
+        <item name="tabTextColor">@color/colorBlack100</item>
+    </style>
+
+
+    <style name="TabItemSelect">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TabItemUnselect">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+</resources>

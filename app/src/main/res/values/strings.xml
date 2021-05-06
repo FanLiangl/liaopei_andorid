@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">陪聊</string>
+    <string name="home_str">首页</string>
+    <string name="radios_str">电台</string>
+    <string name="message_str">消息</string>
+    <string name="mine_str">我的</string>
+
+    <string name="user_register_protocol">《用户协议》</string>
+    <string name="and_str">与</string>
+    <string name="user_conceal">《隐私协议》</string>
+    <string name="str_phone_login">手机登录</string>
+    <string name="str_login_re">点击登录/注册即代表您同意</string>
+    <string name="str_wechat">微信</string>
+    <string name="str_choice_login">选择登录方式</string>
+
+    <string name="str_mine_account">账号</string>
+    <string name="str_mine_wallet">钱包</string>
+    <string name="str_mine_member">会员</string>
+    <string name="str_mine_kefu">联系微信客服</string>
+    <string name="str_mine_share">分享给好友</string>
+    <string name="str_mine_rule">邀请规则</string>
+    <string name="str_mine_setting">设置</string>
+    <string name="str_mine_dynamic">我的动态</string>
+    <string name="str_mine_privacy">隐私协议</string>
+    <string name="str_mine_version">版本号</string>
+    <string name="str_mine_pri">隐私设置</string>
+    <string name="str_mine_love">喜欢我的</string>
+
+    <string name="join_love">加入喜欢</string>
+    <string name="str_stature">身高</string>
+    <string name="str_weight">体重</string>
+    <string name="str_city">常驻城市</string>
+    <string name="str_user_photo">Ta的相册</string>
+    <string name="str_appraise">评价</string>
+    <string name="str_letter">私信</string>
+    <string name="str_phone">连麦</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--申明RowView的样式-->
+    <declare-styleable name="RowView">
+        <attr name="left_icon" format="reference|color"/>
+        <!--左侧文字-->
+        <attr name="left_text" format="string"/>
+        <!--右侧提示文字-->
+        <attr name="input_hint" format="string"/>
+
+        <!--右侧是编辑框 / textview / 箭头 / labels-->
+        <attr name="content_type" format="integer">
+            <flag name="text" value="0x00"/>
+            <flag name="editable" value="0x01"/>
+            <flag name="labels" value="0x02"/>
+            <flag name="arrow" value="0x10"/>
+        </attr>
+
+        <!--右侧是编辑框 / textview 时内容的Gravity-->
+        <attr name="content_gravity" format="integer">
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+        </attr>
+
+        <!--输入字符最大长度-->
+        <attr name="max_length" format="integer"/>
+        <!--输入类型-->
+        <attr name="input_type" format="integer">
+            <!-- A numeric only field.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_NUMBER} |
+             {@link android.text.InputType#TYPE_NUMBER_VARIATION_NORMAL}. -->
+            <flag name="number" value="0x00000002" />
+            <!-- Just plain old text.  Corresponds to
+             {@link android.text.InputType#TYPE_CLASS_TEXT} |
+             {@link android.text.InputType#TYPE_TEXT_VARIATION_NORMAL}. -->
+            <flag name="text" value="0x00000001" />
+        </attr>
+    </declare-styleable>
+
+    <!--申明SystemSessionItemView的样式-->
+    <declare-styleable name="SystemSessionItemView">
+        <attr name="icon" format="reference"/>
+    </declare-styleable>
+</resources>

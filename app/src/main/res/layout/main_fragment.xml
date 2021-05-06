@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="48dp">
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:textSize="14sp"
+        android:drawableRight="@mipmap/sj"
+        android:drawablePadding="4dp"
+        android:textColor="@color/color_33333"
+        android:text="广东省 广州市"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"/>
+
+    <ImageView
+        android:id="@+id/img_search"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:src="@mipmap/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@mipmap/bz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+       app:layout_constraintRight_toLeftOf="@+id/img_search"/>
+
+    <com.google.android.material.tabs.TabLayout
+        app:layout_constraintBottom_toTopOf="@+id/tv_city"
+        android:id="@+id/tablayout"
+        style="@style/TabLayoutStyle" />
+
+    <androidx.viewpager.widget.ViewPager
+        app:layout_constraintBottom_toTopOf="@+id/tablayout"
+        android:id="@+id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

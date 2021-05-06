@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/img_list"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:src="@mipmap/start_logo"
+        android:layout_width="132dp"
+        android:layout_height="132dp" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="距离你300米"
+        android:drawableLeft="@mipmap/mine_location"
+        app:layout_constraintLeft_toRightOf="@+id/img_list"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="6dp"
+       app:layout_constraintTop_toTopOf="@+id/img_list" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        app:layout_constraintTop_toTopOf="@+id/tv_location"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:text="1分钟之前"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/mine_time"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="15sp"
+        android:textColor="@color/color_33333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time"
+        app:layout_constraintLeft_toRightOf="@+id/img_list"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:text="社会我泽哥哥"/>
+
+    <ImageView
+        android:id="@+id/img_sex"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintTop_toTopOf="@+id/tv_name"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_name"
+        app:layout_constraintLeft_toRightOf="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/woman"/>
+
+    <TextView
+        android:gravity="center"
+        android:textSize="10sp"
+        android:textColor="@color/colorFF0061"
+        android:text="Ta有12张照片，请点击查看"
+        android:background="@drawable/bg_mine_phone"
+        app:layout_constraintTop_toTopOf="@+id/img_list"
+        app:layout_constraintBottom_toBottomOf="@+id/img_list"
+        android:layout_width="193dp"
+        android:layout_height="20dp"
+        android:alpha="0.5"
+        app:layout_constraintLeft_toRightOf="@+id/img_list"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/tv_attestation"
+        android:drawableLeft="@mipmap/attestation"
+        app:layout_constraintBottom_toTopOf="@+id/main_job"
+        app:layout_constraintLeft_toRightOf="@+id/img_list"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="真人认证"/>
+
+    <TextView
+        android:text="26sui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color666666"
+        android:textSize="12sp"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@+id/tv_attestation"
+        app:layout_constraintTop_toTopOf="@+id/tv_attestation"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@mipmap/mine_age"
+        />
+
+   <TextView
+       android:id="@+id/main_job"
+       android:textSize="12sp"
+       android:gravity="center"
+       android:textColor="@color/color666666"
+       android:text="模特简直"
+       android:drawableLeft="@mipmap/mine_job"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toRightOf="@+id/img_list"
+       android:layout_marginLeft="16dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       />
+    <TextView
+        android:drawableLeft="@mipmap/mine_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/main_job"
+        android:textColor="@color/color666666"
+        android:text="深圳市"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

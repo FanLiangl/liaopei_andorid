@@ -1,0 +1,4 @@
+include ':app'
+include ':network'
+include':magicindicator'
+rootProject.name = "liaopei_andorid"

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--白色-->
+    <color name="colorWhite">#FFFFFFFF</color>
+    <!--灰色-->
+    <color name="colorGrey100">#FFFBFBFB</color>
+    <!--红色-->
+    <color name="colorRed100">#FFF82E7A</color>
+    <!--橘色-->
+    <color name="colorOrange100">#FFFA6855</color>
+    <color name="colorOrange20">#33FA6855</color>
+    <!--粉红色-->
+    <color name="colorPink100">#FFF9426D</color>
+    <!--黑色-->
+    <color name="colorBlack100">#FF2F2F37</color>
+    <color name="colorBlack50">#802F2F37</color>
+    <color name="colorBlack30">#4D2F2F37</color>
+    <color name="colorBlack10">#1A2F2F37</color>
+    <color name="colorBlack5">#0D2F2F37</color>
+    <color name="colorFF0061">#FF0061</color>
+    <color name="color666666">#666666</color>
+    <color name="color_33333">#333333</color>
+    <color name="color_eeeeee">#EEEEEE</color>
+    <color name="color_fff2f7">#FFF2F7</color>
+    <color name="color_black">#000000</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_FF009A">#FF009A</color>
+    <color name="color_DE00FF">#DE00FF</color>
+    <color name="color_00AAFF">#00AAFF</color>
+    <color name="color_FF3698">#FF3698</color>
+
+</resources>
